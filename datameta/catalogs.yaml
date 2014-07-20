@@ -1,0 +1,5 @@
+data_gov_uk:
+  title: 'data.gov.uk'
+  url: 'http://data.gov.uk'
+  api: 'http://data.gov.uk/api'
+  crawler: 'ckan'
