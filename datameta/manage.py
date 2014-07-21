@@ -7,9 +7,9 @@ manager = Manager(app)
 
 
 @manager.command
-def fetch():
+def fetch(name=None):
     """ Fetch data from all catalogs """
-    queue_all()
+    queue_all(catalog=name)
 
 if __name__ == '__main__':
     manager.run()
